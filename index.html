@@ -4,14 +4,26 @@
     <title>DOM JavaScript</title>
   </head>
   <body>
-    <h1>DOM JavaScript</h1>
+    <h1 id="demo"></h1>
     <!-- DOM stands for Document Object Model -->
-    <script>
-      console.log("Hello");
-      function sum(a, b) {
-        return a + b;
-      }
-      console.log("Sum: ", sum(4,5));
+
+    <script type="text/javascript">
+        let tag = document.getElementById('demo');
+        // console.log(tag);
+        tag.innerHTML = "Zeemam"
+        console.log(tag);
+
+
+
+
+
+    //   console.log("Hello");
+    //   function sum(a, b) {
+    //     return a + b;
+    //   }
+    //   console.log("Sum: ", sum(4, 5));
     </script>
+
+    <!-- <script></script> -->
   </body>
 </html>
